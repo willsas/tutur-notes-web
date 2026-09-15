@@ -18,14 +18,14 @@ window.TUTUR = {
    */
   appName:      'Tutur Notes',
   tagline:      'Journaling that feels like texting someone.',
-  legalName:    'REPLACE_ME_LEGAL_NAME',
+  legalName:    'Willa Saskara',
 
   /* --- Where the site lives ----------------------------------------------
    * No trailing slash. Used for canonical URLs and social previews only;
    * every link between pages is relative, so the site works on any host even
    * if you leave this alone.
    */
-  siteUrl:      'https://REPLACE_ME_DOMAIN.com',
+  siteUrl:      'https://willsas.github.io/tutur-notes-web',
 
   /* --- Contact -----------------------------------------------------------
    * supportEmail is what Apple's reviewer will use, and what appears on the
@@ -35,8 +35,8 @@ window.TUTUR = {
    * privacyEmail can be the same address; split it only if you want privacy
    * requests going somewhere separate.
    */
-  supportEmail: 'REPLACE_ME_EMAIL',
-  privacyEmail: 'REPLACE_ME_EMAIL',
+  supportEmail: 'willasaskara+tuturnotes@gmail.com',
+  privacyEmail: 'willasaskara+tuturnotes@gmail.com',
 
   /* How quickly you promise to answer. Keep it honest and achievable — this
    * is a promise a reviewer can hold you to. */
