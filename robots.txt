@@ -1,0 +1,6 @@
+# Tutur Notes
+User-agent: *
+Allow: /
+
+# Add your sitemap here once the domain is settled, e.g.
+# Sitemap: https://example.com/sitemap.xml

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — Tutur Notes</title>
+<meta name="description" content="Get help with Tutur Notes. Contact a real person, or fix the common things yourself: iCloud sync, reminders, the app lock, exporting your journal.">
+
+<link rel="canonical" href="">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Tutur Notes">
+<meta property="og:title" content="Support — Tutur Notes">
+<meta property="og:description" content="Get help with Tutur Notes. Contact a real person, or fix the common things yourself.">
+<meta property="og:url" content="">
+<meta property="og:image" content="assets/img/icon-512.png">
+
+<link rel="icon" href="assets/img/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<meta name="theme-color" content="#B15013">
+
+<link rel="stylesheet" href="assets/css/site.css">
+<script src="config.js"></script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap site-header__inner">
+    <a class="brand" href="index.html">
+      <img src="assets/img/icon-512.png" alt="" width="30" height="30">
+      <span>Tutur Notes</span>
+    </a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html" class="site-nav__optional">Terms</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<div class="doc-header">
+  <div class="wrap wrap--narrow">
+    <span class="eyebrow eyebrow--quiet">Help</span>
+    <h1>Support</h1>
+    <p class="doc-dates">
+      One person makes Tutur Notes, and the same person answers the email.
+      There is no ticket queue and no chatbot.
+    </p>
+  </div>
+</div>
+
+<div class="doc">
+  <div class="wrap wrap--narrow">
+
+    <div class="contact-card">
+      <h2>Email us</h2>
+      <p>
+        Bugs, questions, feature requests, complaints, or a note to say the app
+        helped — all of it goes to the same address, and a person reads it.
+      </p>
+      <a class="contact-email" data-cfg-href="mailto:supportEmail" href="#">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/><path d="m3 7 9 6 9-6"/></svg>
+        {{supportEmail}}
+      </a>
+      <ul class="meta-list">
+        <li><span>Typical reply time</span><span>{{responseTime}}</span></li>
+        <li><span>Requires</span><span>{{minimumOS}}</span></li>
+        <li><span>Price</span><span>Free, no in-app purchases</span></li>
+        <li><span>Devices</span><span>iPhone and iPad</span></li>
+      </ul>
+    </div>
+
+    <h2 id="before-you-write">What to put in your message</h2>
+    <p>
+      You do not have to do any of this — a one-line email is fine. But if
+      something is broken, these four things usually turn two exchanges into
+      one:
+    </p>
+    <ul>
+      <li>Your <strong>app version</strong>, from Settings, at the bottom of the screen</li>
+      <li>Your <strong>iOS version</strong> and device, from iOS Settings → General → About</li>
+      <li>What you <strong>expected</strong> to happen, and what happened instead</li>
+      <li>A <strong>screenshot</strong>, if there is anything to see — with anything private cropped out. We would rather not see your journal.</li>
+    </ul>
+
+    <h2 id="common">Things you can fix right now</h2>
+
+    <h3>My journal is not syncing between devices</h3>
+    <p>Sync runs on Apple's iCloud, so it needs a few things to be true at once:</p>
+    <ul>
+      <li>Both devices are signed in to the <strong>same Apple Account</strong>.</li>
+      <li><strong>Sync to iCloud</strong> is switched on in the app's Settings, on both devices.</li>
+      <li>iCloud Drive is on in iOS Settings → your name → iCloud.</li>
+      <li>Your iCloud storage is not full — a full account silently stops syncing.</li>
+      <li>Both devices have a working connection. Sync is not instant; give it a minute with the app open and the device unlocked.</li>
+    </ul>
+    <p>
+      If the app's Settings shows a message saying iCloud is on but unavailable,
+      that text is the reason iOS gave us. Send it to us and we can usually say
+      what it means.
+    </p>
+
+    <h3>My reminders are not arriving</h3>
+    <ul>
+      <li>Check iOS Settings → Tutur Notes → Notifications, and make sure Allow Notifications is on.</li>
+      <li>Check that a Focus mode or Do Not Disturb is not silencing them at the hour you chose.</li>
+      <li>Open the thread, check its reminder cadence is not set to Off.</li>
+      <li>If you declined the notification prompt when it first appeared, iOS will not ask again — you have to switch it on in iOS Settings yourself.</li>
+    </ul>
+
+    <h3>The app lock is not asking for Face ID</h3>
+    <ul>
+      <li>The lock is off by default. Switch it on in the app's Settings.</li>
+      <li>Face ID must be set up and permitted for Tutur Notes in iOS Settings → Face ID &amp; Passcode.</li>
+      <li>If Face ID fails repeatedly, iOS falls back to your device passcode by design.</li>
+    </ul>
+
+    <h3>I cannot attach a photo, record a voice note, or add a place</h3>
+    <p>
+      Each of those needs a permission that you can grant or revoke at any time
+      in iOS Settings → Tutur Notes. If you said no the first time, that is
+      where you change your mind. The rest of the app keeps working regardless.
+    </p>
+
+    <h3>I want a copy of my journal</h3>
+    <p>
+      Settings → <strong>Export everything</strong>, then pick plain text
+      (<code>.txt</code>) for something readable or <code>.json</code> for
+      something a program can parse. The share sheet lets you send it to Files,
+      Mail, or anywhere else.
+    </p>
+    <p>
+      Worth doing every so often. We hold no copy of your journal, so an export
+      is the only backup that exists outside your device and your iCloud.
+    </p>
+
+    <h3>I want my data deleted</h3>
+    <p>
+      Delete the app and the local journal goes with it. If you used iCloud
+      sync, also remove the app's data in iOS Settings → your name → iCloud →
+      Manage Account Storage. There is no account on our side to close, and
+      nothing for us to delete — the
+      <a href="privacy.html#retention">Privacy Policy</a> explains why.
+    </p>
+
+    <h3>I deleted something by accident</h3>
+    <p>
+      We are sorry — it cannot be recovered. There is no server copy and no
+      trash. If you have an older export, or a device backup from before the
+      deletion, those are the only routes back.
+    </p>
+
+    <h2 id="accessibility">Accessibility</h2>
+    <p>
+      Tutur Notes follows your system text size, and adds its own bubble text
+      size control in Settings on top of it. It works with VoiceOver, respects
+      Reduce Motion, and can be forced to light or dark independently of the
+      device.
+    </p>
+    <p>
+      If something is hard to use with an assistive technology, please tell us.
+      It is a bug, we treat it as one, and reports like that get answered
+      first.
+    </p>
+
+    <h2 id="requests">Feature requests</h2>
+    <p>
+      Send them. Tutur Notes is deliberately small, and the answer is often
+      "no, that would make it heavier" — but knowing what people reach for is
+      how the next version gets decided, and several things in the app came
+      from an email like yours.
+    </p>
+
+    <h2 id="security">Reporting a security or privacy issue</h2>
+    <p>
+      Write to <a data-cfg-href="mailto:privacyEmail" href="#">{{privacyEmail}}</a>
+      with "security" in the subject line and we will prioritise it. Please give
+      us a reasonable chance to fix an issue before disclosing it publicly.
+    </p>
+
+    <p class="doc-footer-note">
+      Related: <a href="privacy.html">Privacy Policy</a> ·
+      <a href="terms.html">Terms &amp; Conditions</a> ·
+      <a href="index.html">Back to Tutur Notes</a>
+    </p>
+
+  </div>
+</div>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap site-footer__inner">
+    <div class="site-footer__legal">
+      <p><strong>{{appName}}</strong></p>
+      <p style="margin-top:14px;">© <span class="year">2026</span> {{legalName}}. All rights reserved.</p>
+    </div>
+    <nav aria-label="Footer">
+      <a href="index.html">Home</a>
+      <a href="support.html">Support</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms &amp; Conditions</a>
+      <a data-cfg-href="mailto:supportEmail" href="#">Contact</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="assets/js/config-apply.js"></script>
+<script>
+  document.querySelectorAll('.year').forEach(function (el) {
+    el.textContent = new Date().getFullYear();
+  });
+</script>
+</body>
+</html>
